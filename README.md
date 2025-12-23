@@ -1,47 +1,42 @@
 # FaceDetection-Tracking_project
-👤 Face Recognition System using OpenCV
-📌 Description
+# 👤 Face Recognition System using OpenCV
 
-A Face Recognition System that detects and identifies human faces in real time using OpenCV and pre-trained face recognition models. The system uses a webcam or video stream to recognize known faces by comparing them with previously trained data.
+## 📌 Description
+A Face Recognition System that detects and identifies human faces in real time using OpenCV and pre-trained face recognition models. The system captures faces from a webcam or video stream, compares them with trained data, and displays the identified person’s name.
 
-This project demonstrates core computer vision, image processing, and machine learning concepts and is suitable for academic projects, resumes, and entry-level AI roles.
+This project demonstrates core concepts of computer vision, image processing, and machine learning.
 
-🚀 Features
+---
 
-Real-time face detection using Haar Cascade
+## 🚀 Features
+- Real-time face detection
+- Face recognition using trained models
+- Webcam-based live recognition
+- Supports multiple faces
+- Fast and lightweight
+- Easy to extend with new users
 
-Face recognition using trained face encodings
+---
 
-Webcam-based live recognition
+## 🛠️ Technologies Used
+- Python 3.9+
+- OpenCV
+- NumPy
+- Haar Cascade Classifier
+- LBPH Face Recognizer
 
-Supports multiple faces
+---
 
-Fast and lightweight
 
-Easy to extend with new faces
+---
 
-🛠️ Technologies Used
+## ⚙️ How It Works
+1. Detects faces using Haar Cascade classifier  
+2. Captures and stores face images as a dataset  
+3. Trains a face recognition model  
+4. Recognizes faces in real time and displays names  
 
-Python 3.9+
 
-OpenCV
-⚙️ How It Works
 
-Face Detection
 
-Detects faces using Haar Cascade classifier.
 
-Dataset Creation
-
-Captures multiple images per person.
-
-Training
-
-Trains the face recognition model using labeled face data.
-
-Recognition
-
-Matches live face input with trained data and displays the name.
-NumPy
-
-Haar Cascade Classifier
